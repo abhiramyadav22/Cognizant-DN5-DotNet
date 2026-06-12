@@ -1,0 +1,7 @@
+SASS stands for Syntactically Awesome Style Sheets.
+
+Advantages:
+1. Reusable code using variables
+2. Supports nesting
+3. Easier to maintain large projects
+4. Reduces repeated CSS code
