@@ -1,1 +1,0 @@
-ADO.NET is used to connect C# applications with databases.
