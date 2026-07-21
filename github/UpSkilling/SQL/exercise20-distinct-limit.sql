@@ -1,6 +1,0 @@
-SELECT DISTINCT city
-FROM Users;
-
-SELECT *
-FROM Users
-LIMIT 2;

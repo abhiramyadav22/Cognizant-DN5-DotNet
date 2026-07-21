@@ -1,7 +1,0 @@
-BEGIN TRANSACTION;
-
-UPDATE Students
-SET Name = 'Rahul'
-WHERE Id = 1;
-
-COMMIT;

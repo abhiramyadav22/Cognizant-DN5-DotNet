@@ -1,3 +1,0 @@
-ALTER TABLE Users
-
-ADD phone VARCHAR(20);
