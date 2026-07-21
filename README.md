@@ -16,178 +16,92 @@ This repo contains my **UpSkilling** and **Deep Skilling** exercises, notes, and
 
 ## Repository Structure
 
-```text
+`text
 Cognizant-DN5-DotNet/
 ├── UpSkilling/
 └── DeepSkilling/
 
-
 UpSkilling
 
-This section contains the foundation topics that helped me get comfortable with the basic tools and concepts before moving into the advanced .NET modules.
+
+This section contains the foundation topics that helped me build confidence with the basic tools and concepts before moving into the advanced .NET modules.
 
 Topics Covered
-🌐 HTML5
-Basic HTML structure
-Forms
-Tables
-Semantic tags
-Media elements
-Lists
-Links and images
-🎨 CSS3
-Selectors
-Box model
-Colors and fonts
-Layout and positioning
-Responsive design
-Basic page styling
-⚡ JavaScript
-Variables and data types
-Operators
-Conditions and loops
-Functions
-Arrays and objects
-DOM manipulation
-Event handling
-🧩 jQuery
-jQuery inclusion
-Selectors
-Effects
-Events
-DOM manipulation
-🎯 Bootstrap 5
-Grid system
-Navbar
-Cards
-Forms
-Buttons
-Responsive UI
-🗄️ SQL
-Table creation
-CRUD operations
-Joins
-Group by
-Views
-Stored procedures
-Indexes
-💻 C#
-Variables and data types
-Operators
-Loops
-Methods
-Arrays
-Classes and objects
-Constructors
-Inheritance
-Polymorphism
-Exception handling
-Collections
-LINQ basics
-File handling
-Async and await
-🔌 ADO.NET
-Database connection
-SqlConnection
-SqlCommand
-SqlDataReader
-DataSet
-DataAdapter
-CRUD operations
+HTML5
+
+Practiced basic HTML structure, forms, tables, semantic tags, media elements, lists, links, and images.
+
+CSS3
+
+Practiced selectors, box model, colors, fonts, layout, positioning, responsive design, and basic page styling.
+
+JavaScript
+
+Practiced variables, data types, operators, conditions, loops, functions, arrays, objects, DOM manipulation, and event handling.
+
+jQuery
+
+Practiced jQuery inclusion, selectors, effects, events, and DOM manipulation.
+
+Bootstrap 5
+
+Practiced grid system, navbar, cards, forms, buttons, and responsive UI.
+
+SQL
+
+Practiced table creation, CRUD operations, joins, group by, views, stored procedures, and indexes.
+
+C#
+
+Practiced variables, data types, operators, loops, methods, arrays, classes and objects, constructors, inheritance, polymorphism, exception handling, collections, LINQ basics, file handling, and async/await.
+
+ADO.NET
+
+Practiced database connection, SqlConnection, SqlCommand, SqlDataReader, DataSet, DataAdapter, and CRUD operations.
+
 DeepSkilling
 
 This section contains the week-wise advanced modules from the .NET FSE track.
 
 Week 1 - Engineering Concepts
 
-This week focused on the core concepts that support programming and problem solving.
+This week focused on the core concepts behind software development.
 
-📌 Design Principles & Patterns
+Design Principles & Patterns
 
-Practiced:
+Practiced SOLID principles and common design patterns like Singleton, Factory, Builder, Adapter, Decorator, Proxy, Observer, Strategy, Command, MVC, and Dependency Injection.
 
-SOLID principles
-Singleton pattern
-Factory method pattern
-Builder pattern
-Adapter pattern
-Decorator pattern
-Proxy pattern
-Observer pattern
-Strategy pattern
-Command pattern
-MVC pattern
-Dependency injection
-📌 Data Structures & Algorithms
+Data Structures & Algorithms
 
-Practiced:
+Practiced arrays, searching, sorting, linked list basics, recursion, time complexity, binary search, and bubble sort.
 
-Arrays
-Searching
-Sorting
-Linked list basics
-Recursion
-Time complexity
-Binary search
-Bubble sort
-📌 Advanced SQL
+Advanced SQL
 
-Practiced:
+Practiced window functions, ranking functions, views, indexes, stored procedures, functions, transactions, triggers, and cursors.
 
-Window functions
-Ranking functions
-Views
-Indexes
-Stored procedures
-Functions
-Transactions
-Triggers
-Cursors
-📌 NUnit and Moq
+NUnit and Moq
 
-Practiced:
+Practiced unit testing basics, NUnit test cases, assertions, and mocking concepts.
 
-Unit testing basics
-NUnit test cases
-Assertions
-Mocking concepts
-📌 Logging Framework
-Basic logging concepts
-Simple practice examples
+Logging Framework
+
+Practiced basic logging concepts and simple logging examples.
+
 Week 2 - Entity Framework Core and ASP.NET Core Web API
 
 This week focused on backend development using .NET.
 
-🗃️ Entity Framework Core 8.0
+Entity Framework Core 8.0
 
-Practiced:
+Practiced ORM basics, DbContext, DbSet, code-first approach, migrations, CRUD operations, LINQ queries, relationships, and updating and deleting records.
 
-ORM basics
-DbContext
-DbSet
-Code-first approach
-Migrations
-CRUD operations
-LINQ queries
-Relationships
-Updating and deleting data
-🌍 ASP.NET Core 8.0 Web API
+ASP.NET Core 8.0 Web API
 
-Practiced:
+Practiced REST API basics, controllers, routing, HTTP verbs, GET / POST / PUT / DELETE, Swagger, and simple CRUD APIs.
 
-REST API basics
-Controllers
-Routing
-HTTP verbs
-GET / POST / PUT / DELETE
-Swagger
-Basic API structure
-Simple CRUD APIs
 Week 3 - Microservices
 
-This week covered Microservices and authentication-related concepts.
-
-🔐 Microservices Topics
+This week focused on Microservices and authentication-related concepts.
 
 Practiced:
 
@@ -199,8 +113,6 @@ Security basics for APIs
 Week 4 - Angular
 
 This week focused on frontend development using Angular.
-
-🅰️ Angular Topics
 
 Practiced:
 
@@ -217,8 +129,6 @@ Week 5 - Git
 
 This week covered version control and GitHub workflow.
 
-📦 Git Topics
-
 Practiced:
 
 Repository creation
@@ -234,14 +144,15 @@ Week 6 - Docker and DevOps Basics
 
 Later training sessions introduced deployment-related basics.
 
-🐳 Topics Covered
+Practiced:
+
 Docker basics
 Images and containers
 DevOps overview
 Deployment-related concepts
 Hands-On Exercises
 
-This repository also includes my weekly hands-on exercises and practice files for:
+This repository includes my weekly hands-on exercises and practice files for:
 
 Design Principles & Patterns
 Data Structures & Algorithms
@@ -270,17 +181,3 @@ Angular
 Git
 GitHub
 Docker basics
-Learning Outcome
-
-This repository helped me:
-
-practice basic and advanced programming concepts
-improve problem-solving skills
-understand backend development in .NET
-work with databases and APIs
-learn GitHub workflow
-organize code in a week-wise manner for revision
-Notes
-
-The code in this repository is written in a simple and student-friendly style for learning and practice purposes.
-The focus is on understanding concepts, completing exercises, and tracking progress throughout the training.
