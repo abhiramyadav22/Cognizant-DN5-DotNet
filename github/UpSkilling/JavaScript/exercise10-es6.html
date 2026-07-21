@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ES6</title>
+</head>
+
+<body>
+
+    <script>
+
+        const eventName = "Music";
+
+        let seats = 50;
+
+        function showEvent(name = "Workshop"){
+
+            console.log(name);
+
+        }
+
+        let event = {
+
+            name:"Sports",
+            city:"Hyderabad"
+
+        };
+
+        let {name,city} = event;
+
+        console.log(name);
+        console.log(city);
+
+        let events = ["Music","Sports"];
+
+        let newEvents = [...events];
+
+        console.log(newEvents);
+
+        showEvent();
+
+    </script>
+
+</body>
+
+</html>

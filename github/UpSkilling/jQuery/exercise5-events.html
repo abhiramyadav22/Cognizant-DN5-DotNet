@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Events</title>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+</head>
+
+<body>
+
+    <button id="colorBtn">
+        Change Color
+    </button>
+
+    <br><br>
+
+    <div id="colorBox"
+    style="width:200px;height:100px;border:1px solid black;">
+    </div>
+
+    <script>
+
+        $("#colorBtn").click(function(){
+
+            $("#colorBox").css("background","red");
+
+        });
+
+        $("#colorBtn").dblclick(function(){
+
+            $("#colorBox").css("background","white");
+
+        });
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Storage Example</title>
+
+</head>
+
+<body>
+
+    <h2>Save Event Preference</h2>
+
+    <select id="event">
+
+        <option>Music</option>
+        <option>Sports</option>
+        <option>Workshop</option>
+
+    </select>
+
+    <br><br>
+
+    <button onclick="saveData()">
+        Save
+    </button>
+
+    <button onclick="clearData()">
+        Clear
+    </button>
+
+    <script>
+
+        window.onload = function(){
+
+            let data =
+            localStorage.getItem("event");
+
+            if(data){
+
+                document.getElementById("event").value =
+                data;
+
+            }
+
+        }
+
+        function saveData(){
+
+            let e =
+            document.getElementById("event").value;
+
+            localStorage.setItem("event", e);
+
+            sessionStorage.setItem("event", e);
+
+            alert("Saved");
+
+        }
+
+        function clearData(){
+
+            localStorage.clear();
+
+            sessionStorage.clear();
+
+            alert("Storage Cleared");
+
+        }
+
+    </script>
+
+</body>
+
+</html>
+
+

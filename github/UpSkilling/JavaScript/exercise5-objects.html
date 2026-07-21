@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Objects</title>
+</head>
+
+<body>
+
+    <script>
+
+        let event = {
+
+            name:"Music Event",
+            seats:50,
+
+            checkAvailability:function(){
+
+                console.log("Seats Available");
+
+            }
+
+        };
+
+        event.checkAvailability();
+
+        Object.entries(event).forEach(function(i){
+
+            console.log(i);
+
+        });
+
+    </script>
+
+</body>
+
+</html>

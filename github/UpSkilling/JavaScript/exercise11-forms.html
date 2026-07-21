@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Event Form</title>
+</head>
+
+<body>
+
+    <h2>Register Event</h2>
+
+    <form id="myForm">
+
+        Name:<br>
+        <input type="text" name="name">
+
+        <br><br>
+
+        Email:<br>
+        <input type="email" name="email">
+
+        <br><br>
+
+        <button type="submit">
+            Submit
+        </button>
+
+    </form>
+
+    <p id="msg"></p>
+
+    <script>
+
+        document.getElementById("myForm")
+        .addEventListener("submit", function(event){
+
+            event.preventDefault();
+
+            let n =
+            this.elements["name"].value;
+
+            let e =
+            this.elements["email"].value;
+
+            if(n == "" || e == ""){
+
+                document.getElementById("msg").innerHTML =
+                "Fill all fields";
+
+            }
+            else{
+
+                document.getElementById("msg").innerHTML =
+                "Registration Success";
+
+            }
+
+        });
+
+    </script>
+
+</body>
+
+</html>
